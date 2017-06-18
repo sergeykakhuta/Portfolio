@@ -1,0 +1,100 @@
+- Оформить список деффектов приложения на английском языке (предпочтительно).
+- 5 деффектов, описать подробно.
+
+List of bugs
+1) Summary : In the window (File-->New) of application the Button DELETE FILTER has a typo
+2) Summary : In the sub-menu EDIT item CAT has a typo. Need CUT
+3) Summary : In the window (File-->New) APLLY FILTER TO END OF a ELEMENT radio button has a grammatical error(...a element and need an element) 
+4) Summary : In the window (File-->New) APLLY FILTER TO ANY SUBSTRING OF A ELEMENT radio button has a grammatical error(...a element and need an element) 
+5) Summary : In the window (File-->New) APLLY FILTER TO BEGINNING OF a ELEMENT radio button has a grammatical error(...a element and need an element) 
+Bug report SW Text Filter 
+
+///Bug #1 
+Summary: The Element input field  takes only one value of the expression
+  
+Description: When I fill Element input field, I can input only one value, becous field doesn't accept characters such as SPACE and COMMAS.
+
+Steps to reproduce: 
+1)I run application Text Filter
+2)Select menu File ---> NEW
+3)Input the value in the item field
+
+Expected result
+You can enter several different values
+
+Actual result 
+You can't enter a few values
+
+Priority P2
+Severity S2
+ 
+Assignee developer 
+ 
+Status Rejected!!  becouse in the Element input field can input a few values via EDIT ---> CUT---> input new value in  the Element input field!! ///////
+
+
+Bug #2 
+Summary: The Element input field doesn't edits
+Description: When I fill Element input field, I can't deletes characters
+
+Steps to reproduce: 
+1)I run application Text Filter
+2)Select menu File ---> NEW
+3)Input the value in the item field
+4)Deletes characters via Back Space  or Delite
+
+Expected result
+Characters removed
+
+Actual result 
+Characters are not deleted
+
+Priority P2
+Severity S2
+ 
+Assignee developer 
+ 
+Status Rejected  via EDIT ---> CUT
+
+Bug #3
+Summary: Each 11th filter value replaces the last one
+Description: when you are input 11th filter value in the FILTER field previus value replaces new
+
+Steps to reproduce: 
+1)I run application Text Filter
+2)Input 10 news  elements in the FILTER field 
+3)Press the button ADD FILTER after  each time 
+4)Input 11th element  in the FILTER field
+5)Press the button ADD FILTER   
+
+Expected result 
+Error message
+
+Actual result 
+Each 11th filter value replaces the last one without warning
+
+Priority p5
+Severity minor
+ 
+Assignee developer 
+ 
+Status New
+ 
+Bug #3 
+Summary 
+Discription 
+
+Steps to reproduce
+1) Run application Text Filter 
+2) Click File tab  and choose NEW sub-menu
+3) Input  8171 in ELEMENT input field 
+4) Press the button ADD 
+5) Add filter "1" in FILTER input field
+6) Press the button ADD FILTER  
+7) Click APLLY FILTER TO END OF a ELEMENT radio button and choose "1" in drop-down list 
+
+Expected result 
+On the left side of the window we get the result : "8171" 
+  
+Actual result
+On the left side of the window the result is missing
